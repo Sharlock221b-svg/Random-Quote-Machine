@@ -32,9 +32,10 @@ export default function Main() {
       <div id="quote-box">
             <p id="text">{Quotes.quote}</p>
             <p id="author">{Quotes.author}</p>
+            <div className="cont">
             <a href="twitter.com/intent/tweet" id="tweet-quote" target="_blank">Tweet</a>
             <button onClick={handle} id="new-quote">New Quote</button>
-           
+    </div>
       </div>
   );
 }

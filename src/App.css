@@ -21,7 +21,58 @@ div {
   width: 450px;
   margin-top: auto;
   margin-bottom: auto;
-  background-color: #5174e6;
+  background-color:#fdfced
+;
   border-radius: 6px;
    font-family: 'Raleway', sans-serif;
+  padding: 10px;
+ 
+}
+
+#author{
+  text-align: right;
+  font-weight: 600;
+  color: #229b87;
+}
+
+.cont{
+  display: flex;
+  flex-direction: row;
+  
+}
+
+#new-quote{
+  margin-left: auto;
+  margin-bottom: 6px;
+  margin-top: 5px;
+  border: none;
+  border-radius: 3px;
+  padding: 4px;
+  background-color: #a8adf5;
+  cursor: pointer;
+   font-weight: 500;
+}
+
+#tweet-quote{
+  margin-top: 5px;
+  style: none;
+  padding-top: 3px;
+  padding-bottom: 1px;
+  paddgin-left: 3px;
+  padding-right: 3px;
+  color: back;
+  border-radius: 2px;
+  font-weight: 500;
+  background-color:#1DA1F2;
+  cursor: pointer;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+#text{
+  font-weight: 500;
+  color: #229b87;
 }
