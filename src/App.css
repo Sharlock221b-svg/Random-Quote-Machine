@@ -9,6 +9,7 @@ body{
   background-repeat: no-repeat;
   background-size: cover;
    font-family: 'Raleway', sans-serif;
+
 }
 div {
   position: relative;
@@ -75,4 +76,17 @@ a{
 #text{
   font-weight: 500;
   color: #229b87;
+}
+
+@media (max-width: 1300px){
+  body{
+    height: 100vh;
+  }
+}
+
+@media (max-width: 550px){
+  #quote-box{
+    flex-shrink: 1;
+    width: auto;
+  }
 }
