@@ -8,14 +8,14 @@ export default function Main() {
   });
 
   const [list,setList] = React.useState([])
-  const [counter,setCounter] = React.useState(1)
+  
 
   function handle() {
+    let idx = Math.floor(Math.random() * list.length);
     setQuotes({
-      quote: list[counter].quote,
-      author: list[counter].author
+      quote: list[idx].quote,
+      author: list[idx].author
     });
-    setCounter((x) => x+1);
 }
   
   React.useEffect(() => {
