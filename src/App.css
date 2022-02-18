@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,500');
+
+body{
+  background: url(./images/ocean.jpg); 
+   display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+   font-family: 'Raleway', sans-serif;
+}
+div {
+  position: relative;
+  z-index: 2;
+}
+
+#quote-box{
+  position: relative;
+  /*color: white;*/
+  width: 450px;
+  margin-top: auto;
+  margin-bottom: auto;
+  background-color: #5174e6;
+  border-radius: 6px;
+   font-family: 'Raleway', sans-serif;
+}
